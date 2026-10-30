@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "ru",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:ru",
+      "type": "project",
+      "name": "ru"
+    },
+    {
+      "id": "project:ru/file:README.md",
+      "type": "file",
+      "path": "README.md",
+      "sha256": "d4492e1bf02dc17e5db66180e101027ad939544f213180a950ef40684b0f8bc7",
+      "bytes": 1920
+    },
+    {
+      "id": "project:ru/file:eslint.config.js",
+      "type": "file",
+      "path": "eslint.config.js",
+      "sha256": "dc00c7db700d03834d04a172ea709593ae5ef1bc750eb55dfc521a60d9e1baa0",
+      "bytes": 734
+    },
+    {
+      "id": "project:ru/file:package.json",
+      "type": "file",
+      "path": "package.json",
+      "sha256": "037dd2d68babe5ffc8482e0af5a1174c8f189846b5795ab1924bbdb0910a0f6c",
+      "bytes": 730
+    },
+    {
+      "id": "project:ru/file:src/app/App.tsx",
+      "type": "file",
+      "path": "src/app/App.tsx",
+      "sha256": "5d4e152b41fcc8e5b2ccf02bd0306820dbb04c6269f05fdbf938b0f6d1b836fb",
+      "bytes": 247
+    },
+    {
+      "id": "project:ru/file:src/app/index.tsx",
+      "type": "file",
+      "path": "src/app/index.tsx",
+      "sha256": "1d5fd8120e1fcee8486ec6bbeba83abb942d3c13cd63a32f912712dd6fc7658a",
+      "bytes": 146
+    },
+    {
+      "id": "project:ru/file:src/entities/sound/model/soundConfig.ts",
+      "type": "file",
+      "path": "src/entities/sound/model/soundConfig.ts",
+      "sha256": "8c48a5a0ac0ee889cedaaae975f86155e41e37b636ea8d5586be1b46a0e02b66",
+      "bytes": 446
+    },
+    {
+      "id": "project:ru/file:src/features/soundPlayer/model/useSoundPlayer.ts",
+      "type": "file",
+      "path": "src/features/soundPlayer/model/useSoundPlayer.ts",
+      "sha256": "a4124bdecd5e9ec98626505c9c1dc722c0d85a73c9e983d0533e2738b57c7030",
+      "bytes": 1562
+    },
+    {
+      "id": "project:ru/file:src/features/soundPlayer/ui/SoundPlayerControls.tsx",
+      "type": "file",
+      "path": "src/features/soundPlayer/ui/SoundPlayerControls.tsx",
+      "sha256": "64c6267acdc55545e92a2d5899de9f366e35d249ff2049bcfc3b278edde2c67e",
+      "bytes": 1486
+    },
+    {
+      "id": "project:ru/file:src/main.tsx",
+      "type": "file",
+      "path": "src/main.tsx",
+      "sha256": "39ba3bf0b9b3d7baa2d217a064c4693eb9e615270b063ef58603d6ad9e57c292",
+      "bytes": 238
+    },
+    {
+      "id": "project:ru/file:src/shared/lib/audio.ts",
+      "type": "file",
+      "path": "src/shared/lib/audio.ts",
+      "sha256": "2f144dcd93c925dfcd4eb6421d8ec49adc9a7aea16aa37da17904dc7a804e7c0",
+      "bytes": 193
+    },
+    {
+      "id": "project:ru/file:src/shared/ui/Button.tsx",
+      "type": "file",
+      "path": "src/shared/ui/Button.tsx",
+      "sha256": "932fef3797112a4f0b92996bca3abd45bb58d141c8e0d79492c963dc036d7235",
+      "bytes": 161
+    },
+    {
+      "id": "project:ru/file:src/vite-env.d.ts",
+      "type": "file",
+      "path": "src/vite-env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "bytes": 38
+    },
+    {
+      "id": "project:ru/file:vite.config.ts",
+      "type": "file",
+      "path": "vite.config.ts",
+      "sha256": "ba72856dbef2fe157a91feb7b5f80f26e9430260de4957fb6064cdf1ef53f204",
+      "bytes": 389
+    },
+    {
+      "id": "package:npm:react",
+      "type": "package",
+      "name": "react",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:react-dom",
+      "type": "package",
+      "name": "react-dom",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@eslint/js",
+      "type": "package",
+      "name": "@eslint/js",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/node",
+      "type": "package",
+      "name": "@types/node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/react",
+      "type": "package",
+      "name": "@types/react",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/react-dom",
+      "type": "package",
+      "name": "@types/react-dom",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vitejs/plugin-react-swc",
+      "type": "package",
+      "name": "@vitejs/plugin-react-swc",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint",
+      "type": "package",
+      "name": "eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-react-hooks",
+      "type": "package",
+      "name": "eslint-plugin-react-hooks",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-react-refresh",
+      "type": "package",
+      "name": "eslint-plugin-react-refresh",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:globals",
+      "type": "package",
+      "name": "globals",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript",
+      "type": "package",
+      "name": "typescript",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript-eslint",
+      "type": "package",
+      "name": "typescript-eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite",
+      "type": "package",
+      "name": "vite",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:eslint.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "eslint.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:src/app/App.tsx",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app/App.tsx"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:src/app/index.tsx",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/app/index.tsx"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:src/entities/sound/model/soundConfig.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/entities/sound/model/soundConfig.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:src/features/soundPlayer/model/useSoundPlayer.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/soundPlayer/model/useSoundPlayer.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:src/features/soundPlayer/ui/SoundPlayerControls.tsx",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/features/soundPlayer/ui/SoundPlayerControls.tsx"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:src/main.tsx",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/main.tsx"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:src/shared/lib/audio.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/shared/lib/audio.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:src/shared/ui/Button.tsx",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/shared/ui/Button.tsx"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:src/vite-env.d.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/vite-env.d.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru",
+      "target": "project:ru/file:vite.config.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "vite.config.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:ru/file:src/main.tsx",
+      "target": "project:ru/file:src/app/App.tsx",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/main.tsx",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:ru/file:src/app/index.tsx",
+      "target": "project:ru/file:src/app/App.tsx",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/app/index.tsx",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:ru/file:src/features/soundPlayer/ui/SoundPlayerControls.tsx",
+      "target": "project:ru/file:src/features/soundPlayer/model/useSoundPlayer.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/features/soundPlayer/ui/SoundPlayerControls.tsx",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:react",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 13
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:react-dom",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 14
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:@eslint/js",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 17
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:@types/node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 18
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:@types/react",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 19
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:@types/react-dom",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 20
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:@vitejs/plugin-react-swc",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 21
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 22
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:eslint-plugin-react-hooks",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 23
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:eslint-plugin-react-refresh",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 24
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:globals",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 26
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:typescript-eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 27
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:ru/file:package.json",
+      "target": "package:npm:vite",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 7
+      },
+      "method": "manifest"
+    }
+  ]
+}
