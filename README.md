@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+**ЦКП:** Не определён: сохранён React-прототип, но пользовательская задача не подтверждена документацией.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
